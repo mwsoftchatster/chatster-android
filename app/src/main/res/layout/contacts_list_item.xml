@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:backgroundTint="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/ivProfileContacts"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/user_256" />
+
+    <TextView
+        android:id="@+id/tvUserNameContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/ivProfileContacts"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/tvUserStatusContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tvUserNameContacts"
+        android:layout_toEndOf="@+id/ivProfileContacts"
+        android:textSize="12sp"
+        />
+
+    <ImageView
+        android:id="@+id/ivIsChatsterContact"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/chatster_logo"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:contentDescription="@string/chatster_user"/>
+
+    <ImageView
+        android:id="@+id/ivIsNotChatsterContact"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/invitation_256"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/invitation_to_join_chatster"/>
+
+</RelativeLayout>

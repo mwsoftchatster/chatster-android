@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="nl.mwsoft.www.chatster.viewLayer.createGroupChat.CreateGroupChatActivity"
+    tools:showIn="@layout/activity_create_group_chat">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCreateGroupName"
+        android:hint="@string/enter_group_chat_name_here"
+        android:layout_marginTop="15dp"
+        android:maxLength="40"
+        android:maxLines="1"
+        android:textSize="20sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvCreateGroupChat"
+        android:layout_below="@+id/etCreateGroupName"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/ivDoneCreateGroup"
+        android:src="@drawable/done_256"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="15dp"/>
+
+
+</RelativeLayout>

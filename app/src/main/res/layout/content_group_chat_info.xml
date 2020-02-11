@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="nl.mwsoft.www.chatster.viewLayer.groupChatInfo.GroupChatInfoActivity"
+    tools:showIn="@layout/activity_group_chat_info">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/groupInfoToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ivBack"
+                android:src="@drawable/left_arrow"
+                android:clickable="true"
+                android:focusable="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvToolbarGroupChatInfo"
+                android:layout_centerVertical="true"
+                android:text="@string/group_info"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:layout_toEndOf="@+id/ivBack"
+                android:layout_marginStart="15dp"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ivAddNewMember"
+                android:src="@drawable/add_contact"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:visibility="gone"
+                android:clickable="true"
+                android:focusable="true"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/ivGroupChatInfo"
+        android:src="@drawable/group_profile_512"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:clickable="false"
+        android:layout_below="@+id/groupInfoToolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGroupChatInfoGroupName"
+        android:layout_below="@+id/ivGroupChatInfo"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGroupChatInfoAdminName"
+        android:layout_below="@+id/tvGroupChatInfoGroupName"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnExitGroup"
+        android:layout_below="@+id/tvGroupChatInfoAdminName"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_button"
+        android:text="@string/exit"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="10dp"
+        android:enabled="false"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpdateGroup"
+        android:layout_below="@+id/btnExitGroup"
+        android:background="@drawable/my_button"
+        android:layout_centerHorizontal="true"
+        android:text="@string/update"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="invisible"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvGroupChatInfo"
+        android:layout_below="@+id/btnUpdateGroup"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

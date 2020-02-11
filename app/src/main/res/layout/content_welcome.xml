@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="nl.mwsoft.www.chatster.viewLayer.welcome.WelcomeActivity"
+    tools:showIn="@layout/activity_welcome">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/ivWelcomeLogo"
+        android:src="@drawable/chatster_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/chatster_logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWelcomeChatsterName"
+        android:text="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ivWelcomeLogo"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWelcomeInfo"
+        android:text="@string/connect_with_people_around_the_world"
+        android:textSize="16sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvWelcomeChatsterName"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWelcomePermissionsInfo"
+        android:text="@string/permissions_warning"
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:lineSpacingExtra="3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvWelcomeInfo"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWelcomeInfoTP"
+        android:text="@string/by_clicking_on_next_button_you_agree_to_our"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:lineSpacingExtra="3dp"
+        android:layout_below="@+id/tvWelcomePermissionsInfo"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWelcomeInfoTP2"
+        android:text="@string/terms_amp_policies"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvWelcomeInfoTP"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnWelcomeNext"
+        android:background="@drawable/my_button"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:text="@string/next"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvWelcomeInfoTP2"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWelcomeInfoPP"
+        android:text="@string/copyright_2017_mwsoft_privacy_policy"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</RelativeLayout>

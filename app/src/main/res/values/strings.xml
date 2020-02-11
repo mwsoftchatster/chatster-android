@@ -1,0 +1,475 @@
+<resources>
+    <string name="app_name">Chatster</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_confirm_phone">Confirm Phone</string>
+    <string name="title_activity_register_user">Register User</string>
+    <string name="title_activity_group_chat"></string>
+    <string name="title_activity_create_group_chat">Create Group Chat</string>
+    <string name="title_activity_group_chat_info">Group Chat Info</string>
+    <string name="title_activity_chatster_settings">Chatster Settings</string>
+    <string name="title_activity_edit_user_status">Edit User Status</string>
+    <string name="title_activity_add_new_group_members"></string>
+    <string name="title_activity_chat"></string>
+
+    <string name="img">Image</string>
+    <string name="group_info">Group Chat Info</string>
+    <string name="no_internet_connection">No internet connection. Try again later.</string>
+    <string name="request_accepted">Has accepted your contact request</string>
+    <string name="send_contact_request">Send</string>
+    <string name="cancel_contact_request">Cancel</string>
+    <string name="group_chat_accepted">Accepted invitation to group %1$s</string>
+
+    <string name="join_group_chat">Would you like to join this group chat?</string>
+
+    <string name="enter_group_chat_name_here">Enter group chat name here …</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="new_message">Sent you new message</string>
+    <string name="title_activity_splash_screen">Chatster</string>
+    <string name="connect_with_people_around_the_world">Connect with people around the world</string>
+
+    <string name="status_message">Status message…</string>
+    <string name="register">Register</string>
+    <string name="enter_username">Username must be unique…</string>
+    <string name="success_register">Successfully registered.</string>
+    <string name="fail_register">Registration failed. Try again later.</string>
+    <string name="image_msg">Sent you an image</string>
+
+    <string name="next">Next</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="terms_amp_policies"><u>Terms &amp; Policies</u></string>
+    <string name="copyright_2017_mwsoft_privacy_policy">Copyright 2017–2018 MWSOFT <u>Privacy Policy</u></string>
+
+    <string name="please_enter_your_phone_number">Please enter your phone number and click Send Code.</string>
+    <string name="we_will_send_you_sms_with_registration_code">We will send you SMS with verification code.</string>
+    <string name="incorrect_phone">The phone number you have entered is incorrect. Please try again.</string>
+    <string name="smth_went_wrong">Sorry, something went wrong. Please try again later.</string>
+    <string name="update">Update</string>
+
+    <string name="enter_your_phone">Please enter your phone number</string>
+    <string name="user_profile_updated">User profile updated.</string>
+    <string name="exit">EXIT</string>
+    <string name="group_admin_is">Group admin is %1$s</string>
+    <string name="chatster">Chatster</string>
+    <string name="account_already_exists">We are glad to see you back! Enjoy chatting.</string>
+    <string name="username_already_exists">Ussername already exists, please choose another username.</string>
+    <string name="group_updated">Group profile updated.</string>
+    <string name="empty_username">User name cannot be empty.</string>
+    <string name="user_name">User Name</string>
+    <string name="offline">Offline</string>
+    <string name="delete_message">Are you sure you want to delete the message?</string>
+    <string name="delete_chat">Are you sure you want to delete the chat?</string>
+    <string name="delete_group_chat">Are you sure you want to delete the group chat?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_new_member">Add New Member</string>
+    <string name="create_group_no_members">To create group chat you need to add at least one contact to the group.</string>
+    <string name="create_group_no_name">To create group chat you need to give name to the group.</string>
+    <string name="do_you_want_delete_msg">Are you sure you want to delete the message?</string>
+    <string name="left_group">Left group.</string>
+    <string name="joined_the_group"> joined the group.</string>
+    <string name="path_to_awesome_font"></string>
+
+    <string name="number_unread_messages">%1$d</string>
+    <string name="random_int">%1$d</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="reply">Reply</string>
+    <string name="by_clicking_on_next_button_you_agree_to_our">By clicking on \'Next\' button you agree to our</string>
+    <string name="at_least_16_years_old_desc">To use Chatster you must be at least 16 years old.</string>
+    <string name="at_least_16_years_old_q"> Are you at least 16 years old? </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string-array name="countryCodes">
+        <item>Afghanistan,(93)</item>
+        <item>Albania,(355)</item>
+        <item>Algeria,(213)</item>
+        <item>Andorra,(376)</item>
+        <item>Angola,(244)</item>
+        <item>Antarctica,(672)</item>
+        <item>Argentina,(54)</item>
+        <item>Armenia,(374)</item>
+        <item>Aruba,(297)</item>
+        <item>Australia,(61)</item>
+        <item>Austria,(43)</item>
+        <item>Azerbaijan,(994)</item>
+        <item>Bahrain,(973)</item>
+        <item>Bangladesh,(880)</item>
+        <item>Belarus,(375)</item>
+        <item>Belgium,(32)</item>
+        <item>Belize,(501)</item>
+        <item>Benin,(229)</item>
+        <item>Bhutan,(975)</item>
+        <item>Bolivia,(591)</item>
+        <item>Bosnia &amp; Herzegovina,(387)</item>
+        <item>Botswana,(267)</item>
+        <item>Brazil,(55)</item>
+        <item>Brunei,(673)</item>
+        <item>Bulgaria,(359)</item>
+        <item>Burkina Faso,(226)</item>
+        <item>Myanmar (Burma),(95)</item>
+        <item>Burundi,(257)</item>
+        <item>Cambodia,(855)</item>
+        <item>Cameroon,(237)</item>
+        <item>Canada,(1)</item>
+        <item>Cape Verde,(238)</item>
+        <item>Central African Republic,(236)</item>
+        <item>Chad,(235)</item>
+        <item>Chile,(56)</item>
+        <item>China,(86)</item>
+        <item>Christmas Island,(61)</item>
+        <item>Cocos (Keeling) Islands,(61)</item>
+        <item>Colombia,(57)</item>
+        <item>Comoros,(269)</item>
+        <item>Congo (Republic),(242)</item>
+        <item>Congo (DRC),(243)</item>
+        <item>Cook Islands,(682)</item>
+        <item>Costa Rica,(506)</item>
+        <item>Croatia,(385)</item>
+        <item>Cuba,(53)</item>
+        <item>Cyprus,(357)</item>
+        <item>Czech Republic,(420)</item>
+        <item>Denmark,(45)</item>
+        <item>Djibouti,(253)</item>
+        <item>Timor-Leste,(670)</item>
+        <item>Ecuador,(593)</item>
+        <item>Egypt,(20)</item>
+        <item>El Salvador,(503)</item>
+        <item>Equatorial Guinea,(240)</item>
+        <item>Eritrea,(291)</item>
+        <item>Estonia,(372)</item>
+        <item>Ethiopia,(251)</item>
+        <item>Falkland Islands (Islas Malvinas),(500)</item>
+        <item>Faroe Islands,(298)</item>
+        <item>Fiji,(679)</item>
+        <item>Finland,(358)</item>
+        <item>France,(33)</item>
+        <item>French Polynesia,(689)</item>
+        <item>Gabon,(241)</item>
+        <item>Gambia,(220)</item>
+        <item>Georgia,(995)</item>
+        <item>Germany,(49)</item>
+        <item>Ghana,(233)</item>
+        <item>Gibraltar,(350)</item>
+        <item>Greece,(30)</item>
+        <item>Greenland,(299)</item>
+        <item>Guatemala,(502)</item>
+        <item>Guinea,(224)</item>
+        <item>Guinea-Bissau,(245)</item>
+        <item>Guyana,(592)</item>
+        <item>Haiti,(509)</item>
+        <item>Honduras,(504)</item>
+        <item>Hong Kong,(852)</item>
+        <item>Hungary,(36)</item>
+        <item>India,(91)</item>
+        <item>Indonesia,(62)</item>
+        <item>Iran,(98)</item>
+        <item>Iraq,(964)</item>
+        <item>Ireland,(353)</item>
+        <item>Isle of Man,(44)</item>
+        <item>Israel,(972)</item>
+        <item>Italy,(39)</item>
+        <item>Côte d’Ivoire,(225)</item>
+        <item>Jamaica,(1)</item>
+        <item>Japan,(81)</item>
+        <item>Jordan,(962)</item>
+        <item>Kazakhstan,(7)</item>
+        <item>Kenya,(254)</item>
+        <item>Kiribati,(686)</item>
+        <item>Kuwait,(965)</item>
+        <item>Kyrgyzstan,(996)</item>
+        <item>Laos,(856)</item>
+        <item>Latvia,(371)</item>
+        <item>Lebanon,(961)</item>
+        <item>Lesotho,(266)</item>
+        <item>Liberia,(231)</item>
+        <item>Libya,(218)</item>
+        <item>Liechtenstein,(423)</item>
+        <item>Lithuania,(370)</item>
+        <item>Luxembourg,(352)</item>
+        <item>Macau,(853)</item>
+        <item>Macedonia (FYROM),(389)</item>
+        <item>Madagascar,(261)</item>
+        <item>Malawi,(265)</item>
+        <item>Malaysia,(60)</item>
+        <item>Maldives,(960)</item>
+        <item>Mali,(223)</item>
+        <item>Malta,(356)</item>
+        <item>Marshall Islands,(692)</item>
+        <item>Mauritania,(222)</item>
+        <item>Mauritius,(230)</item>
+        <item>Mayotte,(262)</item>
+        <item>Mexico,(52)</item>
+        <item>Micronesia,(691)</item>
+        <item>Moldova,(373)</item>
+        <item>Monaco,(377)</item>
+        <item>Mongolia,(976)</item>
+        <item>Montenegro,(382)</item>
+        <item>Morocco,(212)</item>
+        <item>Mozambique,(258)</item>
+        <item>Namibia,(264)</item>
+        <item>Nauru,(674)</item>
+        <item>Nepal,(977)</item>
+        <item>Netherlands,(31)</item>
+        <item>Netherlands Antilles,(599)</item>
+        <item>New Caledonia,(687)</item>
+        <item>New Zealand,(64)</item>
+        <item>Nicaragua,(505)</item>
+        <item>Niger,(227)</item>
+        <item>Nigeria,(234)</item>
+        <item>Niue,(683)</item>
+        <item>North Korea,(850)</item>
+        <item>Norway,(47)</item>
+        <item>Oman,(968)</item>
+        <item>Pakistan,(92)</item>
+        <item>Palau,(680)</item>
+        <item>Panama,(507)</item>
+        <item>Papua New Guinea,(675)</item>
+        <item>Paraguay,(595)</item>
+        <item>Peru,(51)</item>
+        <item>Philippines,(63)</item>
+        <item>Pitcairn Islands,(870)</item>
+        <item>Poland,(48)</item>
+        <item>Portugal,(351)</item>
+        <item>Puerto Rico,(1)</item>
+        <item>Qatar,(974)</item>
+        <item>Romania,(40)</item>
+        <item>Russia,(7)</item>
+        <item>Rwanda,(250)</item>
+        <item>St. Barthélemy,(590)</item>
+        <item>Samoa,(685)</item>
+        <item>San Marino,(378)</item>
+        <item>São Tomé &amp; Príncipe,(239)</item>
+        <item>Saudi Arabia,(966)</item>
+        <item>Senegal,(221)</item>
+        <item>Serbia,(381)</item>
+        <item>Seychelles,(248)</item>
+        <item>Sierra Leone,(232)</item>
+        <item>Singapore,(65)</item>
+        <item>Slovakia,(421)</item>
+        <item>Slovenia,(386)</item>
+        <item>Solomon Islands,(677)</item>
+        <item>Somalia,(252)</item>
+        <item>South Africa,(27)</item>
+        <item>South Korea,(82)</item>
+        <item>Spain,(34)</item>
+        <item>Sri Lanka,(94)</item>
+        <item>St. Helena,(290)</item>
+        <item>St. Pierre &amp; Miquelon,(508)</item>
+        <item>Sudan,(249)</item>
+        <item>Suriname,(597)</item>
+        <item>Swaziland,(268)</item>
+        <item>Sweden,(46)</item>
+        <item>Switzerland,(41)</item>
+        <item>Syria,(963)</item>
+        <item>Taiwan,(886)</item>
+        <item>Tajikistan,(992)</item>
+        <item>Tanzania,(255)</item>
+        <item>Thailand,(66)</item>
+        <item>Togo,(228)</item>
+        <item>Tokelau,(690)</item>
+        <item>Tonga,(676)</item>
+        <item>Tunisia,(216)</item>
+        <item>Turkey,(90)</item>
+        <item>Turkmenistan,(993)</item>
+        <item>Tuvalu,(688)</item>
+        <item>United Arab Emirates,(971)</item>
+        <item>Uganda,(256)</item>
+        <item>United Kingdom,(44)</item>
+        <item>Ukraine,(380)</item>
+        <item>Uruguay,(598)</item>
+        <item>United States,(1)</item>
+        <item>Uzbekistan,(998)</item>
+        <item>Vanuatu,(678)</item>
+        <item>Vatican City,(39)</item>
+        <item>Venezuela,(58)</item>
+        <item>Vietnam,(84)</item>
+        <item>Wallis &amp; Futuna,(681)</item>
+        <item>Yemen,(967)</item>
+        <item>Zambia,(260)</item>
+        <item>Zimbabwe,(263)</item>
+    </string-array>
+    <string name="title_activity_intro">Intro</string>
+    <string name="thank_you_for_installing_chatster">Thank you for installing Chatster.</string>
+    <string name="chatster_chat_1_to_1">With Chatster you can chat 1-to-1.</string>
+    <string name="chat_with_a_group">And you can chat with a group of your friends.</string>
+    <string name="almost_ready">You are now almost ready start using Chatster.</string>
+    <string name="currently">Currently you can send text messages and images to your Chatster contacts.</string>
+    <string name="voice_typing">Voice typing.</string>
+    <string name="voice_typing_desc">Instead of typing in text messages just tap on the microphone button in the left bottom corner in 1-to-1 chat or group chat, say what you want to be typed in and it will be typed in for you.</string>
+    <string name="future">And we are working very hard to make sure that in the near future you can send other types of files as well, e.g. videos, voice messages etc.</string>
+    <string name="thank_you_introduction_enjoy">Thank you for going through the introduction.</string>
+    <string name="intro_enjoy_next_steps">Next, we will ask you to grant Chatster all the necessary permissions, verify your identity by verifying your phone number. And after your identity has been verified you can choose your user name and start chatting.</string>
+    <string name="previous">Previous</string>
+    <string name="skip">Skip</string>
+    <string name="your_number">Is the phone number below yours?</string>
+    <string name="plus">+</string>
+    <string name="edit_number">If the phone number above is correct, please click CONFIRM. Otherwise click EDIT.</string>
+    <string name="activation_code">We will send you activation code via an SMS. It will be verified automatically.</string>
+    <string name="edit">Edit</string>
+    <string name="confirm">Confirm</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_and_policies">Terms and Policies</string>
+    <string name="gdpr">GDPR Privacy Rights</string>
+    <string name="not_in_your_contacts">Sent you a message, but is not in your contact list.</string>
+    <string name="loading_message">It may take up to 30 seconds for you to receive verification code. Once verification code is received, enter it and click Verify Code.</string>
+    <string name="denied_permissions">Without all of the permissions granted Chatster will not be able to function properly. Please, go to the Application Manager in the phone\'s Settings and grant necessary permissions manually.</string>
+    <string name="permissions_warning">After you click on the Next button, you will be asked to grant four different permissions to Chatster app. These permissions are needed in order for Chatster to function properly. If you want to know more about why Chatster needs these permissions, please send us an email at admin@mwsoft.nl. Thank you for your understanding.</string>
+    <string name="title_activity_chat_settings"></string>
+    <string name="chat_settings">Chat Settings</string>
+    <string name="un_send_messages">Allow this contact to un-send messages in this chat</string>
+    <string name="unsend_updated">Un-send messages setting updated.</string>
+    <string name="message_copied">Message has been copied to the clipboard.</string>
+    <string name="message_deleted">This message has been deleted by sender.</string>
+    <string name="unsend_your_messages">You can only unsend messages sent by you.</string>
+    <string name="cant_unsend">You can\'t unsend messages in this chat.</string>
+    <string name="cant_unsend_unsent">You can\'t unsend unsent messages.</string>
+    <string name="you">You</string>
+    <string name="title_activity_image_detail"></string>
+    <string name="image_detail">Image Detail</string>
+    <string name="image_detail_sender_name">Image Sent By %1$s</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="no_country">Sorry! We could not determine your country. Please select your country from the drop down menu.</string>
+    <string name="empty_msg">You can\'t send empty message.</string>
+    <string name="tap_here_for_info">Tap Here For Info</string>
+
+    <string name="title_activity_permissions_request">Permissions</string>
+    <string name="permissions_read_contacts">Permission Access Your Contacts</string>
+    <string name="permissions_read_contacts_desc">Chatster requires this permission in order to make it possible for you to communicate with your contacts.</string>
+    <string name="permissions_make_manage_calls">Permission Make And Manage Phone Calls</string>
+    <string name="permissions_make_manage_calls_desc">Chatster requires this permission in order to determine your country name and your country phone code.</string>
+    <string name="permissions_access_files">Permission Access Photos And Files</string>
+    <string name="permissions_access_files_desc">Chatster requires this permission in order to make it possible for you to send photos and other files to your contacts.</string>
+    <string name="permissions_view_sms">Permission Send And View SMS</string>
+    <string name="permissions_view_sms_desc">Chatster requires this permission in order to verify users phone number. Each user will receive an SMS at the provided phone number. This SMS will contain verification code which will be automatically read by Chatster.</string>
+    <string name="permissions_denied">Permission Was Denied</string>
+    <string name="permissions_denied_desc">Chatster requires all of the requested permissions in order to function properly. To complete registration and start chatting with your friends and family please grant all of the requested permissions.</string>
+    <string name="permission_granted">This permission has already been granted</string>
+    <string name="permissions_done">All permissions have been granted</string>
+    <string name="permissions_grant_req">Grant this permission by tapping on the button \'GRANT PERMISSION\'.</string>
+
+    <string name="ok">OK</string>
+    <string name="manual_grant_permission"><![CDATA[You can also grant this permission manually in your phone settings by navigating to Settings > Apps > Chatster > Permissions.]]></string>
+    <string name="no_chats_yet">No 1-to-1 chats yet. To start 1-to-1 chat go to contacts tab and tap on the contact.</string>
+    <string name="no_group_chats_yet">No group chats yet. To create group chat tap on the \'+\' button in the bottom right corner.</string>
+    <string name="phone_example">1234567</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input.</string>
+    <string name="speech_prompt">Please, tell me what to type.</string>
+
+    <string name="chatster_logo">Chatster Logo</string>
+    <string name="creators">Creators</string>
+    <string name="title_activity_creators">Creators</string>
+
+    <string name="title_posts">Posts</string>
+    <string name="title_create">Create</string>
+    <string name="title_my_profile">Profile</string>
+    <string name="connect">Connect</string>
+    <string name="gallery_picture">Gallery Picture</string>
+    <string name="camera_picture">Camera Picture</string>
+    <string name="search_result_profile_picture">Search Result Profile Picture</string>
+    <string name="report_post">Report Post</string>
+    <string name="content_creators_profile_picture">Content Creators Profile Picture</string>
+    <string name="like_btn">Like Button</string>
+    <string name="image_post">Image Post</string>
+    <string name="post_comments">Post Comments</string>
+    <string name="title_activity_post_comments">Post Comments</string>
+    <string name="back">Back</string>
+    <string name="create">Create</string>
+    <string name="profile">Profile</string>
+    <string name="post_details">Post Details</string>
+    <string name="title_activity_post_editing">Edit Post</string>
+    <string name="post_caption">Post Caption</string>
+    <string name="post_caption_hint">Write a caption for your post. Maximum length 500 characters.</string>
+    <string name="upload">Upload</string>
+    <string name="image">Image</string>
+    <string name="add_caption_next">Add Caption Next</string>
+    <string name="post_edit_image">Post Edit Image</string>
+    <string name="title_activity_creator_profile">Creator Profile</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="connection_status">Connection Status</string>
+    <string name="username_must_be_unique">Username must be unique.</string>
+    <string name="not_available">Not Available</string>
+    <string name="available">Available</string>
+    <string name="min_3_char">Must be at least 3 characters.</string>
+    <string name="max_32_char">Can be max 32 characters.</string>
+    <string name="no_spec_char">No spaces or special characters.</string>
+    <string name="username_min_3_char">Username must be at least 3 characters.</string>
+    <string name="discover">Discover</string>
+    <string name="post_successfully_uploaded">Your post was successfully uploaded.</string>
+    <string name="post_liked">Post has been liked.</string>
+    <string name="zero_likes">You can\'t unlike post with zero likes.</string>
+    <string name="empty_comment">You can\'t post empty comment.</string>
+    <string name="likes">Likes</string>
+    <string name="views">Views</string>
+    <string name="posts">Posts</string>
+    <string name="you_are_now_following">You are now following</string>
+    <string name="you_have_unfollowed">You have un-followed</string>
+    <string name="delete_post">Delete post</string>
+    <string name="sure_delete_post">Are you sure you want to delete this post?</string>
+    <string name="post_is_deleted">Post is deleted.</string>
+    <string name="history">History</string>
+    <string name="comments">Comments</string>
+    <string name="load_more">Load more</string>
+    <string name="no_posts_to_show">No posts to show. Go to Discover section and follow some creators to see what they are up to.</string>
+    <string name="no_posts_later">No posts to show, please come back later.</string>
+    <string name="no_activity_yet">No activity yet. Please come back later.</string>
+    <string name="profile_no_posts">You didn\'t upload any posts yet. Go to Create section and upload an amazing post.</string>
+    <string name="send_code">Send Code</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="verfication_code_empty">Verification code cannot be empty</string>
+    <string name="incorrect_verification_code">Incorrect Verification Code</string>
+    <string name="verification_sucessful">Verification Successful</string>
+    <string name="verify_phone_first">You need to verify your phone first</string>
+    <string name="channel_group_invitation">channel_group_invitation</string>
+    <string name="group_chat_invitation_channel">Group Chat Invitation Channel</string>
+    <string name="channel_group_message">channel_group_message</string>
+    <string name="group_chat_message_channel">Group Chat Message Channel</string>
+    <string name="channel_message">channel_message</string>
+    <string name="chat_message_channel">Chat Message Channel</string>
+    <string name="channel_creator">channel_creator</string>
+    <string name="creator_channel">Creator Channel</string>
+    <string name="gallery_video">Gallery Video</string>
+    <string name="video">Video</string>
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="description_info">Info</string>
+    <string name="permission_request">This functionality needs permission for camera and audio recording.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="video_capture">Video Capture</string>
+    <string name="write_text">Write Text</string>
+    <string name="title_activity_invite">Invite A Friend</string>
+    <string name="invite_desc">Invite your friend to join Chatster and have fun!</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="chatster_user">Chatster User</string>
+    <string name="invitation_to_join_chatster">Invitation to join Chatster</string>
+    <string name="invalid_email">Email is invalid.</string>
+    <string name="all_values_required">All values are required.</string>
+    <string name="invitation_sent">Invitation sent.</string>
+    <string name="text_post">Text Post</string>
+    <string name="text">Text</string>
+    <string name="hint_text_post">Type your post text here, max 250 characters …</string>
+    <string name="uploading_video_post">Uploading video post…</string>
+    <string name="add_elipse">…</string>
+    <string name="spy_chat">Spy Chat</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="go_in_spy_mode">Go in Spy Mode?</string>
+    <string name="join_spy_mode">Join Spy Mode?</string>
+    <string name="reject_spy_mode">Spy Mode Rejected</string>
+    <string name="left_spy_mode">Left Spy Mode</string>
+    <string name="go">Go</string>
+    <string name="invite">Invite</string>
+    <string name="spy_offline">Your Spy friend is offline</string>
+    <string name="not_registered_ask">If you would like to connect with %1$s, invite %2$s to join Chatster. You can do so by clicking on the Invite button.</string>
+    <string name="not_registered_explain">We are very sorry, but you cannot send end-to-end encrypted messages to %1$s, because %2$s is not registered with Chatster.</string>
+
+</resources>

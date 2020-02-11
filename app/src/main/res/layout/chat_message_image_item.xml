@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/mytextview"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/tvChatMessageImageSenderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/ivChatMessageImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvChatMessageImageSenderName"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_centerInParent="true"
+        android:maxWidth="270dp"
+        android:lineSpacingExtra="2dp"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/tvChatMessageImageCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_below="@+id/ivChatMessageImage"
+        android:layout_alignEnd="@id/ivChatMessageImage"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

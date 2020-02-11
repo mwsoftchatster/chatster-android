@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/ivIntroPagerFeaturesTextMsg"
+        android:src="@drawable/text_msg"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="40dp"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/ivIntroPagerFeaturesImageMsg"
+        android:src="@drawable/picture_msg"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIntroPagerFeaturesThreeCurrently"
+        android:text="@string/currently"
+        android:textColor="@color/colorWhite"
+        android:textSize="14sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:lineSpacingExtra="3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ivIntroPagerFeaturesTextMsg"
+        android:layout_marginTop="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIntroPagerFeaturesThreeWorking"
+        android:text="@string/future"
+        android:textColor="@color/colorWhite"
+        android:textSize="14sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:lineSpacingExtra="3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvIntroPagerFeaturesThreeCurrently"
+        android:layout_marginTop="25dp"
+        android:gravity="center"/>
+</RelativeLayout>

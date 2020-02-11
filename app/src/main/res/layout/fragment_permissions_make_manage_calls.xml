@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/ivPermissionsPagerMakeManageCalls"
+        android:src="@drawable/phone_call_512"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPermissionsPagerMakeManageCalls"
+        android:text="@string/permissions_make_manage_calls"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ivPermissionsPagerMakeManageCalls"
+        android:layout_marginTop="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPermissionsPagerMakeManageCallsDesc"
+        android:text="@string/permissions_make_manage_calls_desc"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvPermissionsPagerMakeManageCalls"
+        android:layout_marginTop="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPermissionsPagerMakeManageCallsRequest"
+        android:text="@string/permissions_grant_req"
+        android:textColor="@color/colorWhite"
+        android:textSize="14sp"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvPermissionsPagerMakeManageCallsDesc"
+        android:layout_marginTop="15dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/ivPermissionsPagerMakeManageCallsPointer"
+        android:src="@drawable/hint_grant_permission_512"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/tvPermissionsPagerMakeManageCallsRequest"
+        />
+
+</RelativeLayout>

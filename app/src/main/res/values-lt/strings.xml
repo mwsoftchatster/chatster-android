@@ -1,0 +1,213 @@
+<resources>
+
+    <string-array name="countryCodes">
+        <item>Afganistanas,(93)</item>
+        <item>Albania,(355)</item>
+        <item>Alžyras,(213)</item>
+        <item>Andora,(376)</item>
+        <item>Angola,(244)</item>
+        <item>Antarktida,(672)</item>
+        <item>Argentina,(54)</item>
+        <item>Armėnija,(374)</item>
+        <item>Aruba,(297)</item>
+        <item>Australija,(61)</item>
+        <item>Austrija,(43)</item>
+        <item>Azerbaidžanas,(994)</item>
+        <item>Bahreinas,(973)</item>
+        <item>Bangladešas,(880)</item>
+        <item>Baltarusija,(375)</item>
+        <item>Belgija,(32)</item>
+        <item>Belizas,(501)</item>
+        <item>Beninas,(229)</item>
+        <item>Butanas,(975)</item>
+        <item>Bolivija,(591)</item>
+        <item>Bosnija ir Hercegovina,(387)</item>
+        <item>Botsvana,(267)</item>
+        <item>Brazilija,(55)</item>
+        <item>Brunėjus,(673)</item>
+        <item>Bulgarija,(359)</item>
+        <item>Burkina Faso,(226)</item>
+        <item>Mianmaras (Birma),(95)</item>
+        <item>Burundis,(257)</item>
+        <item>Kambodža,(855)</item>
+        <item>Kamerūnas,(237)</item>
+        <item>Kanada,(1)</item>
+        <item>Žaliasis Kyšulys,(238)</item>
+        <item>Centrine Afrikos Respublika,(236)</item>
+        <item>Čadas,(235)</item>
+        <item>Čilė,(56)</item>
+        <item>Kinija,(86)</item>
+        <item>Kalėdų Sala,(61)</item>
+        <item>Kokosų (Keilingo) Salos,(61)</item>
+        <item>Kolumbija,(57)</item>
+        <item>Komorai,(269)</item>
+        <item>Kongo Respublika,(242)</item>
+        <item>Kongo Demokratinė Respublika,(243)</item>
+        <item>Kuko Salos,(682)</item>
+        <item>Kosta Rika,(506)</item>
+        <item>Kroatija,(385)</item>
+        <item>Kuba,(53)</item>
+        <item>Kipras,(357)</item>
+        <item>Čekijos Respublika,(420)</item>
+        <item>Danija,(45)</item>
+        <item>Džibutis,(253)</item>
+        <item>Timoras-Leste,(670)</item>
+        <item>Ekvadoras,(593)</item>
+        <item>Egiptas,(20)</item>
+        <item>Salvadoras,(503)</item>
+        <item>Pusiaujo Gvinėja,(240)</item>
+        <item>Eritrėja,(291)</item>
+        <item>Estija,(372)</item>
+        <item>Etiopija,(251)</item>
+        <item>Folklando salos (Islas Malvinas),(500)</item>
+        <item>Farerų Salos,(298)</item>
+        <item>Fidžis,(679)</item>
+        <item>Suomija,(358)</item>
+        <item>Prancūzija,(33)</item>
+        <item>Prancūzų Polinezija,(689)</item>
+        <item>Gabonas,(241)</item>
+        <item>Gambija,(220)</item>
+        <item>Gruzija,(995)</item>
+        <item>Vokietija,(49)</item>
+        <item>Gana,(233)</item>
+        <item>Gibraltaras,(350)</item>
+        <item>Graikija,(30)</item>
+        <item>Grenlandija,(299)</item>
+        <item>Gvatemala,(502)</item>
+        <item>Gvinėja,(224)</item>
+        <item>Bisau Gvinėja,(245)</item>
+        <item>Gajana,(592)</item>
+        <item>Haitis,(509)</item>
+        <item>Hondūras,(504)</item>
+        <item>Honkongas,(852)</item>
+        <item>Vengrija,(36)</item>
+        <item>Indija,(91)</item>
+        <item>Indonezija,(62)</item>
+        <item>Iranas,(98)</item>
+        <item>Irakas,(964)</item>
+        <item>Airija,(353)</item>
+        <item>Meno Sala,(44)</item>
+        <item>Izraelis,(972)</item>
+        <item>Italija,(39)</item>
+        <item>Dramblio Kaulo Krantas,(225)</item>
+        <item>Jamaika,(1)</item>
+        <item>Japonija,(81)</item>
+        <item>Jordanija,(962)</item>
+        <item>Kazachstanas,(7)</item>
+        <item>Kenija,(254)</item>
+        <item>Kiribatis,(686)</item>
+        <item>Kuveitas,(965)</item>
+        <item>Kirgizija,(996)</item>
+        <item>Laosas,(856)</item>
+        <item>Latvija,(371)</item>
+        <item>Libanas,(961)</item>
+        <item>Lesotas,(266)</item>
+        <item>Liberija,(231)</item>
+        <item>Libija,(218)</item>
+        <item>Lichtenšteinas,(423)</item>
+        <item>Lietuva,(370)</item>
+        <item>Liuksemburgas,(352)</item>
+        <item>Makao,(853)</item>
+        <item>Makedonija (FYROM),(389)</item>
+        <item>Madagaskaras,(261)</item>
+        <item>Malavis,(265)</item>
+        <item>Malaizija,(60)</item>
+        <item>Maldyvai,(960)</item>
+        <item>Malis,(223)</item>
+        <item>Malta,(356)</item>
+        <item>Maršalo Salos,(692)</item>
+        <item>Mauritanija,(222)</item>
+        <item>Mauricijus,(230)</item>
+        <item>Majotas,(262)</item>
+        <item>Meksika,(52)</item>
+        <item>Mikronezija,(691)</item>
+        <item>Moldova,(373)</item>
+        <item>Monakas,(377)</item>
+        <item>Mongolija,(976)</item>
+        <item>Juodkalnija,(382)</item>
+        <item>Marokas,(212)</item>
+        <item>Mozambikas,(258)</item>
+        <item>Namibija,(264)</item>
+        <item>Nauru,(674)</item>
+        <item>Nepalas,(977)</item>
+        <item>Nyderlandai,(31)</item>
+        <item>Nyderlandų Antilai,(599)</item>
+        <item>Naujoji Kaledonija,(687)</item>
+        <item>Naujoji Zelandija,(64)</item>
+        <item>Nikaragva,(505)</item>
+        <item>Nigeris,(227)</item>
+        <item>Nigerija,(234)</item>
+        <item>Niue,(683)</item>
+        <item>Šiaurės Korėja,(850)</item>
+        <item>Norvegija,(47)</item>
+        <item>Omanas,(968)</item>
+        <item>Pakistanas,(92)</item>
+        <item>Palau,(680)</item>
+        <item>Panama,(507)</item>
+        <item>Papua Naujoji Gvinėja,(675)</item>
+        <item>Paragvajus,(595)</item>
+        <item>Peru,(51)</item>
+        <item>Filipinai,(63)</item>
+        <item>Pitkerno Salos,(870)</item>
+        <item>Lenkija,(48)</item>
+        <item>Portugalija,(351)</item>
+        <item>Puerto Rikas,(1)</item>
+        <item>Kataras,(974)</item>
+        <item>Rumunija,(40)</item>
+        <item>Rusija,(7)</item>
+        <item>Ruanda,(250)</item>
+        <item>Šv. Barthelemy,(590)</item>
+        <item>Samoa,(685)</item>
+        <item>San Marinas,(378)</item>
+        <item>San Tomė ir Prinsipė,(239)</item>
+        <item>Saudo Arabija,(966)</item>
+        <item>Senegalas,(221)</item>
+        <item>Serbija,(381)</item>
+        <item>Seišeliai,(248)</item>
+        <item>Siera Leonė,(232)</item>
+        <item>Singapūras,(65)</item>
+        <item>Slovakija,(421)</item>
+        <item>Slovėnija,(386)</item>
+        <item>Saliamono Salos,(677)</item>
+        <item>Somalis,(252)</item>
+        <item>Pietų Afrika,(27)</item>
+        <item>Pietų Korėja,(82)</item>
+        <item>Ispanija,(34)</item>
+        <item>Šri Lanka,(94)</item>
+        <item>Šv. Elenos Sala,(290)</item>
+        <item>Sent Pjeras ir Mikelonas,(508)</item>
+        <item>Sudanas,(249)</item>
+        <item>Surinamas,(597)</item>
+        <item>Svazilandas,(268)</item>
+        <item>Švedija,(46)</item>
+        <item>Šveicarija,(41)</item>
+        <item>Sirija,(963)</item>
+        <item>Taivanas,(886)</item>
+        <item>Tadžikistanas,(992)</item>
+        <item>Tanzanija,(255)</item>
+        <item>Tailandas,(66)</item>
+        <item>Togas,(228)</item>
+        <item>Tokelau,(690)</item>
+        <item>Tonga,(676)</item>
+        <item>Tunisia,(216)</item>
+        <item>Turkija,(90)</item>
+        <item>Turkmėnistanas,(993)</item>
+        <item>Tuvalu,(688)</item>
+        <item>Jungtiniai Arabų Emyratai,(971)</item>
+        <item>Uganda,(256)</item>
+        <item>Jungtinė Karalystė,(44)</item>
+        <item>Ukraina,(380)</item>
+        <item>Urugvajus,(598)</item>
+        <item>Jungtinės Valstijos,(1)</item>
+        <item>Uzbekistanas,(998)</item>
+        <item>Vanuatu,(678)</item>
+        <item>Vatikanas,(39)</item>
+        <item>Venesuela,(58)</item>
+        <item>Vietnamas,(84)</item>
+        <item>Volisas ir Futuna,(681)</item>
+        <item>Jemenas,(967)</item>
+        <item>Zambija,(260)</item>
+        <item>Zimbabvė,(263)</item>
+    </string-array>
+
+</resources>

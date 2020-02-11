@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="nl.mwsoft.www.chatster.viewLayer.registerUser.RegisterUserActivity"
+    tools:showIn="@layout/activity_register_user"
+    android:background="@drawable/splash_gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvRegisterAppName"
+        android:text="@string/chatster"
+        android:textColor="@color/colorWhite"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivRegisterUser"
+        android:src="@drawable/user_register_256"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/tvRegisterAppName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvRegisterUserNameStatus"
+        android:layout_below="@+id/tvRegisterAppName"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/colorWhite"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:id="@+id/etRegisterUserName"
+        android:background="@drawable/register_edit_text"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/ivRegisterUser"
+        android:maxLength="80"
+        android:singleLine="true"
+        android:hint="@string/enter_username"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:padding="3dp"
+        android:layout_below="@+id/tvRegisterAppName"
+        android:imeOptions="actionNext"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivRegisterUserStatus"
+        android:src="@drawable/status_message_256"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/etRegisterUserName"/>
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:id="@+id/etRegisterUserStatus"
+        android:background="@drawable/register_edit_text"
+        android:layout_toRightOf="@+id/ivRegisterUserStatus"
+        android:layout_marginTop="10dp"
+        android:maxLength="80"
+        android:singleLine="true"
+        android:hint="@string/status_message"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:padding="3dp"
+        android:layout_below="@+id/etRegisterUserName"
+        android:imeOptions="actionDone"
+        android:textSize="14sp"/>
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnRegisterUser"
+        android:background="@drawable/register_edit_text"
+        android:text="@string/register"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/etRegisterUserStatus"
+        android:layout_alignStart="@+id/etRegisterUserStatus"
+        android:layout_alignLeft="@+id/etRegisterUserStatus"
+        android:layout_marginTop="25dp"/>
+
+</RelativeLayout>

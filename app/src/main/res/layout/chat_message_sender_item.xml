@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/my_textview_sender"
+    android:layout_margin="10dp"
+    android:layout_gravity="end"
+    android:layout_alignParentEnd="true">
+
+    <TextView
+        android:id="@+id/tvChatMessageSenderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/tvChatMessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvChatMessageSenderName"
+        android:padding="5dp"
+        android:minWidth="100dp"
+        android:maxWidth="270dp"
+        android:lineSpacingExtra="2dp"
+        android:textColor="@color/colorWhite"
+        android:autoLink="web"/>
+
+    <TextView
+        android:id="@+id/tvChatMessageCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_below="@+id/tvChatMessageText"
+        android:layout_alignEnd="@+id/tvChatMessageText"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorWhite"/>
+
+</RelativeLayout>
+</RelativeLayout>

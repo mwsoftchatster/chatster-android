@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/ivIntroPagerVoiceTypingLogo"
+        android:src="@drawable/voice_typing"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIntroPagerVoiceTypingOne"
+        android:text="@string/voice_typing"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ivIntroPagerVoiceTypingLogo"
+        android:layout_marginTop="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIntroPagerVoiceTypingTwo"
+        android:text="@string/voice_typing_desc"
+        android:textColor="@color/colorWhite"
+        android:textSize="14sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:lineSpacingExtra="3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvIntroPagerVoiceTypingOne"
+        android:layout_marginTop="25dp"
+        android:gravity="center"/>
+
+</RelativeLayout>

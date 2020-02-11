@@ -1,0 +1,8 @@
+<shape
+    android:useLevel="true"
+    android:shape="oval"
+    android:dither="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="8dp" android:width="8dp"/>
+    <solid android:color="@color/colorActiveDots" />
+</shape>

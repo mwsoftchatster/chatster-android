@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="nl.mwsoft.www.chatster.viewLayer.confirmPhone.ConfirmPhoneActivity"
+    tools:showIn="@layout/activity_confirm_phone">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/ivConfirmLogo"
+        android:src="@drawable/chatster_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvConfirmChatsterName"
+        android:text="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ivConfirmLogo"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvConfirmInfo"
+        android:text="@string/please_enter_your_phone_number"
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/tvConfirmChatsterName"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvConfirmInfo2"
+        android:text="@string/we_will_send_you_sms_with_registration_code"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvConfirmInfo"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvLoadingMessage"
+        android:text="@string/loading_message"
+        android:textSize="12sp"
+        android:lineSpacingExtra="3dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/tvConfirmInfo2"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spConfirmCountryCode"
+        android:layout_below="@+id/tvLoadingMessage"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etConfirmPhoneNumber"
+        android:layout_below="@+id/spConfirmCountryCode"
+        android:layout_marginTop="15dp"
+        android:inputType="phone"
+        android:hint="@string/your_phone_number"
+        android:textSize="16sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etVerifyCode"
+        android:layout_below="@+id/etConfirmPhoneNumber"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:hint="@string/verification_code"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnConfirmNext"
+        android:background="@drawable/my_button"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:text="@string/send_code"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etVerifyCode"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"/>
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnConfirmVerify"
+        android:background="@drawable/my_button"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:text="@string/verify_code"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/etVerifyCode"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvConfirmInfoPP"
+        android:text="@string/copyright_2017_mwsoft_privacy_policy"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:clickable="true" />
+
+
+</RelativeLayout>
