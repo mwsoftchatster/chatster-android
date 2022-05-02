@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="nl.mwsoft.www.chatster.viewLayer.editUserStatus.EditUserStatusActivity"
+    tools:showIn="@layout/activity_edit_user_status">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEditUserStatusMessage"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/my_edit_text"
+        android:layout_centerHorizontal="true"
+        android:maxLines="2"
+        android:maxLength="100"
+        android:paddingLeft="5dp"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnEditUserStatusCancel"
+        android:background="@drawable/mytextview"
+        android:layout_below="@+id/etEditUserStatusMessage"
+        android:layout_toLeftOf="@+id/tvEditUserStatusDelimiter"
+        android:text="@string/cancel"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEditUserStatusDelimiter"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etEditUserStatusMessage"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnEditUserStatusSave"
+        android:background="@drawable/mytextview"
+        android:text="@string/update"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/etEditUserStatusMessage"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tvEditUserStatusDelimiter" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nl.mwsoft.www.chatster.viewLayer.chat.ChatActivity">
+
+    <item
+        android:id="@+id/action_attachment"
+        android:orderInCategory="100"
+        android:title="@string/search"
+        android:icon="@drawable/attachment_256"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_spy_chat"
+        android:orderInCategory="101"
+        android:title="@string/spy_chat"
+        android:icon="@drawable/spy_256"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_chat_settings"
+        android:orderInCategory="102"
+        android:title="@string/settings"
+        android:icon="@drawable/settings_256"
+        app:showAsAction="never" />
+
+
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/ivNotRegistered"
+        android:src="@drawable/sad_color_256"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNotRegisteredExplain"
+        android:text="@string/not_registered_explain"
+        android:textSize="16sp"
+        android:lineSpacingExtra="3dp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ivNotRegistered"
+        android:layout_alignParentStart="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNotRegisteredAsk"
+        android:text="@string/not_registered_ask"
+        android:textSize="16sp"
+        android:lineSpacingExtra="3dp"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvNotRegisteredExplain"
+        android:layout_alignParentStart="true"
+        android:gravity="center"/>
+
+</RelativeLayout>

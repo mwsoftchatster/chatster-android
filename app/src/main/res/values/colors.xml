@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E90FF</color>
+    <color name="colorPrimaryDark">#6e7ff2</color>
+    <color name="colorAccent">#abd3fa</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDelimiter">#d4d1d1</color>
+    <color name="colorIncorrect">#ed2424</color>
+    <color name="colorUnreadMsg">#FFA500</color>
+    <color name="colorMessagePopUp">#ffd000</color>
+    <color name="colorActiveDots">#fffafa</color>
+    <color name="colorInactiveDots">#d4d1d1</color>
+    <color name="colorUserNameUnAvailable">#ed2424</color>
+</resources>

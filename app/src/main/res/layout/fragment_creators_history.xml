@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbHistory"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ivHistoryBack"
+                android:src="@drawable/left_arrow"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="@string/back"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTbHistoryFragmentName"
+                android:text="@string/history"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:layout_toEndOf="@+id/ivHistoryBack" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/tbHistory"/>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/rlNoHistory"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/ivHistoryEmpty"
+            android:layout_centerInParent="true"
+            android:src="@drawable/no_history"
+            android:contentDescription="@string/history"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvHistoryEmpty"
+            android:text="@string/no_activity_yet"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorDelimiter"
+            android:layout_below="@+id/ivHistoryEmpty"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_posts"
+        android:icon="@drawable/media_post_512"
+        android:title="@string/title_posts" />
+
+    <item
+        android:id="@+id/navigation_create"
+        android:icon="@drawable/plus_512"
+        android:title="@string/title_create" />
+
+    <item
+        android:id="@+id/navigation_discover"
+        android:icon="@drawable/discover_512"
+        android:title="@string/discover" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/history_512"
+        android:title="@string/history" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/home_512"
+        android:title="@string/title_my_profile" />
+
+</menu>

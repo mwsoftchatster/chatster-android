@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/denied_popup">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPermissionsPagerDenied"
+        android:text="@string/permissions_denied"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPermissionsPagerDeniedDesc"
+        android:text="@string/permissions_denied_desc"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvPermissionsPagerDenied"
+        android:layout_marginTop="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPermissionsPagerDeniedDescManual"
+        android:text="@string/manual_grant_permission"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvPermissionsPagerDeniedDesc"
+        android:layout_marginTop="15dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPermissionsRequestDeniedGrant"
+        android:text="@string/ok"
+        android:background="@drawable/denied_button"
+        android:textSize="14sp"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/tvPermissionsPagerDeniedDescManual"/>
+
+</RelativeLayout>

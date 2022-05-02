@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivGroupDialogPic"
+        android:src="@drawable/group_profile_128"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGroupDialogGroupName"
+        android:textSize="16sp"
+        android:layout_below="@+id/ivGroupDialogPic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGroupDialogJoinMessage"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvGroupDialogGroupName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGroupDialogSendCancelDelimeter"
+        android:layout_below="@+id/tvGroupDialogJoinMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivGroupDialogAccept"
+        android:src="@drawable/accept_64"
+        android:layout_below="@+id/tvGroupDialogJoinMessage"
+        android:layout_toLeftOf="@+id/tvGroupDialogSendCancelDelimeter"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivGroupDialogCancel"
+        android:src="@drawable/decline_64"
+        android:layout_below="@+id/tvGroupDialogJoinMessage"
+        android:layout_toRightOf="@+id/tvGroupDialogSendCancelDelimeter"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"/>
+
+</RelativeLayout>

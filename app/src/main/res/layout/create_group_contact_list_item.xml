@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:backgroundTint="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/ivProfileContactsCreateGroup"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/user_256" />
+
+    <TextView
+        android:id="@+id/tvUserNameContactsCreateGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/ivProfileContactsCreateGroup"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/tvUserStatusContactsCreateGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tvUserNameContactsCreateGroup"
+        android:layout_toEndOf="@+id/ivProfileContactsCreateGroup"
+        android:textSize="12sp"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/ivCreateGroupContactIsSelected"
+        android:src="@drawable/selected_256"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:visibility="invisible"/>
+    <ImageView
+        android:id="@+id/ivIsChatsterContactCreateGroup"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/chatster_logo"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"/>
+</RelativeLayout>

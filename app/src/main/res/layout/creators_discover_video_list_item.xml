@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/ivDiscoverProfilePicVid"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/user_256"
+        android:contentDescription="@string/search_result_profile_picture"/>
+
+    <TextView
+        android:id="@+id/tvDiscoverUserNameVid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/ivDiscoverProfilePicVid"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text=""/>
+
+    <ImageView
+        android:id="@+id/ivDiscoverConnectVid"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/connect"/>
+
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/vvDiscoverLastPostVid"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_below="@+id/ivDiscoverProfilePicVid"
+        android:adjustViewBounds="true"
+        android:layout_centerInParent="true"
+        app:use_controller="false"
+        android:focusable="true"/>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nl.mwsoft.www.chatster.viewLayer.main.fragment.ChatsFragment"
+    android:backgroundTint="@color/colorWhite">
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rvChats"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rlNoChats"
+        android:visibility="visible"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/ivNoChats"
+            android:src="@drawable/no_chats_512"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNoChats"
+            android:text="@string/no_chats_yet"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:lineSpacingExtra="3dp"
+            android:gravity="center"
+            android:layout_below="@+id/ivNoChats"/>
+    </RelativeLayout>
+
+</FrameLayout>

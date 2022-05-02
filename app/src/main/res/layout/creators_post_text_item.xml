@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/ivCreatorsProfilePicText"
+        android:layout_marginStart="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/content_creators_profile_picture"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/tvUsernameText"
+        android:text=""
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/ivCreatorsProfilePicText"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPostCreatedText"
+        android:text=""
+        android:textSize="12sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTextPost"
+        android:textSize="15sp"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:lineSpacingExtra="3dp"
+        android:minHeight="300dp"
+        android:maxLength="250"
+        android:layout_below="@+id/ivCreatorsProfilePicText"
+        android:layout_marginTop="2dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/text_post"
+        android:autoLink="web"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/ivLikeText"
+        android:src="@drawable/like_256"
+        android:layout_below="@+id/tvTextPost"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="3dp"
+        android:contentDescription="@string/like_btn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:id="@+id/tvLikeCountText"
+        android:text=""
+        android:textSize="14sp"
+        android:layout_below="@+id/tvTextPost"
+        android:layout_toEndOf="@+id/ivLikeText"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:id="@+id/tvCommentCountText"
+        android:text=""
+        android:textSize="14sp"
+        android:layout_below="@+id/tvTextPost"
+        android:layout_toStartOf="@+id/ivPostCommentsText"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:paddingTop="5dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/ivPostCommentsText"
+        android:src="@drawable/comments_256"
+        android:layout_below="@+id/tvTextPost"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/post_comments"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPostCaptionUserNameText"
+        android:text=""
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/ivLikeText"
+        android:gravity="start"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPostCaptionText"
+        android:text=""
+        android:textSize="14sp"
+        android:layout_below="@+id/tvPostCaptionUserNameText"
+        android:gravity="start"
+        android:padding="5dp"
+        android:lineSpacingExtra="3dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/tvPostItemSeparatorText"
+        android:text=""
+        android:textSize="12sp"
+        android:layout_below="@+id/tvPostCaptionText"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/colorDelimiter"/>
+</RelativeLayout>

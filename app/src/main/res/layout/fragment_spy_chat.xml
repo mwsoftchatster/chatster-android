@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="nl.mwsoft.www.chatster.viewLayer.chat.ChatActivity"
+    android:background="@color/colorBlack">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSpyChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        />
+
+    <EditText
+        android:id="@+id/etSpyMessage"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorDelimiter"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:layout_marginStart="5dp"
+        android:maxLines="5"
+        android:ellipsize="start"
+        android:layout_weight="1"
+        android:lineSpacingExtra="2dp"
+        android:background="@drawable/my_spy_edit_text"/>
+
+    <ImageView
+        android:id="@+id/ivSendSpyMessage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/send_512"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/etSpyMessage"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+</RelativeLayout>

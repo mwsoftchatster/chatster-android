@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nl.mwsoft.www.chatster">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="9b079cc9ffc3ccb9342814622e913bec151bdb9f" />
+
+        <activity
+            android:name=".viewLayer.main.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".viewLayer.welcome.WelcomeActivity"
+            android:label="@string/title_activity_welcome"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".viewLayer.confirmPhone.ConfirmPhoneActivity"
+            android:label="@string/title_activity_confirm_phone"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".viewLayer.registerUser.RegisterUserActivity"
+            android:label="@string/title_activity_register_user"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".viewLayer.groupChat.GroupChatActivity"
+            android:label="@string/title_activity_group_chat"
+            android:parentActivityName=".viewLayer.main.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.mwsoft.www.chatster.viewLayer.main.MainActivity" />
+        </activity>
+        <activity
+            android:name=".viewLayer.createGroupChat.CreateGroupChatActivity"
+            android:label="@string/title_activity_create_group_chat"
+            android:parentActivityName=".viewLayer.main.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.mwsoft.www.chatster.viewLayer.main.MainActivity" />
+        </activity>
+        <activity
+            android:name=".viewLayer.groupChatInfo.GroupChatInfoActivity"
+            android:label="@string/title_activity_group_chat_info"
+            android:parentActivityName=".viewLayer.groupChat.GroupChatActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.mwsoft.www.chatster.viewLayer.groupChat.GroupChatActivity" />
+        </activity>
+        <activity
+            android:name=".viewLayer.chatsterSettings.ChatsterSettingsActivity"
+            android:label="@string/title_activity_chatster_settings"
+            android:parentActivityName=".viewLayer.chat.ChatActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.mwsoft.www.chatster.viewLayer.chat.ChatActivity" />
+        </activity>
+        <activity
+            android:name=".viewLayer.editUserStatus.EditUserStatusActivity"
+            android:label="@string/title_activity_edit_user_status"
+            android:parentActivityName=".viewLayer.chatsterSettings.ChatsterSettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.mwsoft.www.chatster.viewLayer.chatsterSettings.ChatsterSettingsActivity" />
+        </activity>
+        <activity
+            android:name=".viewLayer.addNewGroupMember.AddNewGroupMembersActivity"
+            android:label="@string/title_activity_add_new_group_members"
+            android:parentActivityName=".viewLayer.groupChatInfo.GroupChatInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.mwsoft.www.chatster.viewLayer.groupChatInfo.GroupChatInfoActivity" />
+        </activity>
+        <activity
+            android:name=".viewLayer.chat.ChatActivity"
+            android:label="@string/title_activity_chat"
+            android:parentActivityName=".viewLayer.main.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.mwsoft.www.chatster.viewLayer.main.MainActivity" />
+        </activity>
+
+        <provider
+            android:name=".modelLayer.database.dblocal.ChatsProvider"
+            android:authorities="nl.mwsoft.www.chatster.dblocal.chatsprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="nl.mwsoft.www.chatster.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <service
+            android:name=".modelLayer.service.contactLatest.ContactLatestJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".modelLayer.service.local.ChatsterLocalNotificationJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".modelLayer.service.messageQueue.ChatsterMessageQueueJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service android:name=".modelLayer.firebase.offlineMessageService.ChatsterFirebaseOfflineMessageService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".modelLayer.firebase.instanceIdService.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".viewLayer.intro.IntroActivity"
+            android:label="@string/title_activity_intro"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".viewLayer.chatSettings.ChatSettingsActivity"
+            android:label="@string/title_activity_chat_settings"
+            android:parentActivityName=".viewLayer.chat.ChatActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.mwsoft.www.chatster.viewLayer.chat.ChatActivity" />
+        </activity>
+        <activity
+            android:name=".viewLayer.imageDetail.ImageDetailActivity"
+            android:label="@string/title_activity_image_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".viewLayer.permissionsRequest.PermissionsRequestActivity"
+            android:label="@string/title_activity_permissions_request"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".viewLayer.creators.CreatorsActivity"
+            android:label="@string/title_activity_creators"
+            android:parentActivityName=".viewLayer.main.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.mwsoft.www.chatster.viewLayer.main.MainActivity" />
+        </activity>
+        <activity
+            android:name=".viewLayer.creators.PostCommentsActivity"
+            android:label="@string/title_activity_post_comments"
+            android:parentActivityName=".viewLayer.creators.CreatorsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.mwsoft.www.chatster.viewLayer.creators.CreatorsActivity" />
+        </activity>
+        <activity
+            android:name=".viewLayer.creators.CreatePostActivity"
+            android:label="@string/title_activity_post_editing"
+            android:parentActivityName=".viewLayer.creators.CreatorsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.mwsoft.www.chatster.viewLayer.creators.CreatorsActivity" />
+        </activity>
+        <activity
+            android:name=".viewLayer.invite.InviteActivity"
+            android:label="@string/title_activity_invite"
+            android:parentActivityName=".viewLayer.main.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.mwsoft.www.chatster.viewLayer.main.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

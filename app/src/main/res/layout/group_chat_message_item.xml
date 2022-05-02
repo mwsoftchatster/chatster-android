@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/mytextview"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/tvGroupChatMessageSenderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"/>
+
+    <TextView
+        android:id="@+id/tvGroupChatMessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvGroupChatMessageSenderName"
+        android:padding="5dp"
+        android:minWidth="100dp"
+        android:maxWidth="265dp"
+        android:lineSpacingExtra="2dp"
+        android:autoLink="web"/>
+
+    <TextView
+        android:id="@+id/tvGroupChatMessageCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_below="@+id/tvGroupChatMessageText"
+        android:layout_alignEnd="@+id/tvGroupChatMessageText"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

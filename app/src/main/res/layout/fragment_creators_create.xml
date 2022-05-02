@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbCreatorsCreate"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ivCreateBack"
+                android:src="@drawable/left_arrow"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="@string/back"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTbCreateFragmentName"
+                android:text="@string/create"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:layout_toEndOf="@+id/ivCreateBack" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rlCreate"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:id="@+id/ivCreateFromGalleryPicture"
+            android:src="@drawable/picture_256"
+            android:layout_marginBottom="40dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/gallery_picture"/>
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:id="@+id/ivCreateFromTakePicture"
+            android:src="@drawable/photo_camera_256"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="40dp"
+            android:layout_toEndOf="@+id/ivCreateFromGalleryPicture"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/camera_picture"/>
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:id="@+id/ivCreateFromGalleryVideo"
+            android:src="@drawable/video_post_256"
+            android:layout_marginBottom="40dp"
+            android:layout_below="@+id/ivCreateFromGalleryPicture"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/gallery_video"/>
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:id="@+id/ivCreateFromCaptureVideo"
+            android:src="@drawable/video_post_capture_256"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="40dp"
+            android:layout_toEndOf="@+id/ivCreateFromGalleryVideo"
+            android:layout_below="@+id/ivCreateFromTakePicture"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/video_capture"/>
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:id="@+id/ivCreateFromWriteText"
+            android:src="@drawable/text_256"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/ivCreateFromGalleryVideo"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/write_text"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

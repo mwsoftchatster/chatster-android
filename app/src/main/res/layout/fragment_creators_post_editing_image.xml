@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbCreatorsPostEditingImage"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ivPostEditingImageBack"
+                android:src="@drawable/left_arrow"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="@string/back"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTbPostEditingImageFragmentName"
+                android:text="@string/image"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:layout_toEndOf="@+id/ivPostEditingImageBack" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivPostEditingImage"
+        android:src="@drawable/test"
+        android:layout_below="@+id/tbCreatorsPostEditingImage"
+        android:maxHeight="300dp"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/post_edit_image"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivPostEditingImageCancel"
+        android:src="@drawable/cancel_upload_post_256"
+        android:layout_below="@+id/ivPostEditingImage"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/cancel"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivPostEditingImageNextCaption"
+        android:src="@drawable/add_caption_next_256"
+        android:layout_below="@+id/ivPostEditingImage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/add_caption_next"/>
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvInviteDesc"
+        android:text="@string/invite_desc"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFromName"
+        android:text="@string/from"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_below="@+id/tvInviteDesc"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etFrom"
+        android:textSize="14sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tvFromName"
+        android:background="@drawable/my_edit_text"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:inputType="text"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvToName"
+        android:text="@string/to"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_below="@+id/etFrom"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etToName"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tvToName"
+        android:background="@drawable/my_edit_text"
+        android:hint="@string/name"
+        android:textSize="14sp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:inputType="text"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvToEmail"
+        android:text="@string/to"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_below="@+id/etToName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etToEmail"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tvToEmail"
+        android:background="@drawable/my_edit_text"
+        android:hint="@string/email"
+        android:textSize="14sp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:inputType="textEmailAddress"/>
+
+</RelativeLayout>

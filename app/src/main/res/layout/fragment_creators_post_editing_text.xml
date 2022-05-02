@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbCreatorsPostEditingText"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ivPostEditingTextBack"
+                android:src="@drawable/left_arrow"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="@string/back"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTbPostEditingTextFragmentName"
+                android:text="@string/text"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:layout_toEndOf="@+id/ivPostEditingTextBack" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/etPostEditingText"
+        android:hint="@string/hint_text_post"
+        android:background="@drawable/my_edit_text"
+        android:layout_below="@+id/tbCreatorsPostEditingText"
+        android:textColorHint="@color/colorDelimiter"
+        android:padding="5dp"
+        android:lineSpacingExtra="3dp"
+        android:layout_margin="5dp"
+        android:textSize="15sp"
+        android:textColor="@color/colorBlack"
+        android:textAlignment="viewStart"
+        android:gravity="start"
+        android:maxLength="250"
+        android:imeOptions="actionDone"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivPostEditingTextCancel"
+        android:src="@drawable/cancel_upload_post_256"
+        android:layout_below="@+id/etPostEditingText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/cancel"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivPostEditingTextNextCaption"
+        android:src="@drawable/add_caption_next_256"
+        android:layout_below="@+id/etPostEditingText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/add_caption_next"/>
+
+</RelativeLayout>

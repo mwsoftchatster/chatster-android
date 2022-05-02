@@ -1,0 +1,213 @@
+<resources>
+
+    <string-array name="countryCodes">
+        <item>Afganistan,(93)</item>
+        <item>Albania,(355)</item>
+        <item>Aljazair,(213)</item>
+        <item>Andorra,(376)</item>
+        <item>Angola,(244)</item>
+        <item>Antarctica,(672)</item>
+        <item>Argentina,(54)</item>
+        <item>Armenia,(374)</item>
+        <item>Aruba,(297)</item>
+        <item>Australia,(61)</item>
+        <item>Austria,(43)</item>
+        <item>Azerbaijan,(994)</item>
+        <item>Bahrain,(973)</item>
+        <item>Bangladesh,(880)</item>
+        <item>Belarus,(375)</item>
+        <item>Belgia,(32)</item>
+        <item>Belize,(501)</item>
+        <item>Benin,(229)</item>
+        <item>Bhutan,(975)</item>
+        <item>Bolivia,(591)</item>
+        <item>Bosnia dan Herzegovina,(387)</item>
+        <item>Botswana,(267)</item>
+        <item>Brasil,(55)</item>
+        <item>Brunei,(673)</item>
+        <item>Bulgaria,(359)</item>
+        <item>Burkina Faso,(226)</item>
+        <item>Myanmar (Burma),(95)</item>
+        <item>Burundi,(257)</item>
+        <item>Kamboja,(855)</item>
+        <item>Kamerun,(237)</item>
+        <item>Kanada,(1)</item>
+        <item>Tanjung Verde,(238)</item>
+        <item>Republik Afrika Tengah,(236)</item>
+        <item>Chad,(235)</item>
+        <item>Chili,(56)</item>
+        <item>Cina,(86)</item>
+        <item>Pulau Natal,(61)</item>
+        <item>Kepulauan Cocos,(61)</item>
+        <item>Kolombia,(57)</item>
+        <item>Komoro,(269)</item>
+        <item>Republik Kongo,(242)</item>
+        <item>Republik Demokratik Kongo,(243)</item>
+        <item>Kepulauan Cook,(682)</item>
+        <item>Kosta Rika,(506)</item>
+        <item>Kroasia,(385)</item>
+        <item>Kuba,(53)</item>
+        <item>Siprus,(357)</item>
+        <item>Republik Ceko,(420)</item>
+        <item>Denmark,(45)</item>
+        <item>Djibouti,(253)</item>
+        <item>Timor Leste,(670)</item>
+        <item>Ekuador,(593)</item>
+        <item>Mesir,(20)</item>
+        <item>El Salvador,(503)</item>
+        <item>Guinea Khatulistiwa,(240)</item>
+        <item>Eritrea,(291)</item>
+        <item>Estonia,(372)</item>
+        <item>Ethiopia,(251)</item>
+        <item>Kepulauan Falkland,(500)</item>
+        <item>Kepulauan Faroe,(298)</item>
+        <item>Fiji,(679)</item>
+        <item>Finlandia,(358)</item>
+        <item>Perancis,(33)</item>
+        <item>Polinesia Perancis,(689)</item>
+        <item>Gabon,(241)</item>
+        <item>Gambia,(220)</item>
+        <item>Georgia,(995)</item>
+        <item>Jerman,(49)</item>
+        <item>Ghana,(233)</item>
+        <item>Gibraltar,(350)</item>
+        <item>Yunani,(30)</item>
+        <item>Greenland,(299)</item>
+        <item>Guatemala,(502)</item>
+        <item>Guinea,(224)</item>
+        <item>Guinea-Bissau,(245)</item>
+        <item>Guyana,(592)</item>
+        <item>Haiti,(509)</item>
+        <item>Honduras,(504)</item>
+        <item>Hong Kong,(852)</item>
+        <item>Hongaria,(36)</item>
+        <item>India,(91)</item>
+        <item>Indonesia,(62)</item>
+        <item>Iran,(98)</item>
+        <item>Irak,(964)</item>
+        <item>Irlandia,(353)</item>
+        <item>Pulau Manusia,(44)</item>
+        <item>Israel,(972)</item>
+        <item>Italia,(39)</item>
+        <item>Pantai Gading,(225)</item>
+        <item>Jamaika,(1)</item>
+        <item>Jepang,(81)</item>
+        <item>Yordania,(962)</item>
+        <item>Kazakhstan,(7)</item>
+        <item>Kenya,(254)</item>
+        <item>Kiribati,(686)</item>
+        <item>Kuwait,(965)</item>
+        <item>Kirgizstan,(996)</item>
+        <item>Laos,(856)</item>
+        <item>Latvia,(371)</item>
+        <item>Lebanon,(961)</item>
+        <item>Lesotho,(266)</item>
+        <item>Liberia,(231)</item>
+        <item>Libya,(218)</item>
+        <item>Liechtenstein,(423)</item>
+        <item>Lituania,(370)</item>
+        <item>Luksemburg,(352)</item>
+        <item>Macau,(853)</item>
+        <item>Makedonia,(389)</item>
+        <item>Madagaskar,(261)</item>
+        <item>Malawi,(265)</item>
+        <item>Malaysia,(60)</item>
+        <item>Maladewa,(960)</item>
+        <item>Mali,(223)</item>
+        <item>Malta,(356)</item>
+        <item>Kepulauan Marshall,(692)</item>
+        <item>Mauritania,(222)</item>
+        <item>Mauritius,(230)</item>
+        <item>Mayotte,(262)</item>
+        <item>Meksiko,(52)</item>
+        <item>Mikronesia,(691)</item>
+        <item>Moldova,(373)</item>
+        <item>Monako,(377)</item>
+        <item>Mongolia,(976)</item>
+        <item>Montenegro,(382)</item>
+        <item>Maroko,(212)</item>
+        <item>Mozambik,(258)</item>
+        <item>Namibia,(264)</item>
+        <item>Nauru,(674)</item>
+        <item>Nepal,(977)</item>
+        <item>Belanda,(31)</item>
+        <item>Antillen Belanda,(599)</item>
+        <item>Kaledonia Baru,(687)</item>
+        <item>Selandia Baru,(64)</item>
+        <item>Nikaragua,(505)</item>
+        <item>Niger,(227)</item>
+        <item>Nigeria,(234)</item>
+        <item>Niue,(683)</item>
+        <item>Korea Utara,(850)</item>
+        <item>Norwegia,(47)</item>
+        <item>Oman,(968)</item>
+        <item>Pakistan,(92)</item>
+        <item>Palau,(680)</item>
+        <item>Panama,(507)</item>
+        <item>Papua Nugini,(675)</item>
+        <item>Paraguay,(595)</item>
+        <item>Peru,(51)</item>
+        <item>Filipina,(63)</item>
+        <item>Kepulauan Pitcairn,(870)</item>
+        <item>Polandia,(48)</item>
+        <item>Portugal,(351)</item>
+        <item>Puerto Rico,(1)</item>
+        <item>Qatar,(974)</item>
+        <item>Rumania,(40)</item>
+        <item>Rusia,(7)</item>
+        <item>Rwanda,(250)</item>
+        <item>St. Barthélemy,(590)</item>
+        <item>Samoa,(685)</item>
+        <item>San Marino,(378)</item>
+        <item>São Tomé dan Príncipe,(239)</item>
+        <item>Arab Saudi,(966)</item>
+        <item>Senegal,(221)</item>
+        <item>Serbia,(381)</item>
+        <item>Seychelles,(248)</item>
+        <item>Sierra Leone,(232)</item>
+        <item>Singapura,(65)</item>
+        <item>Slowakia,(421)</item>
+        <item>Slovenia,(386)</item>
+        <item>Kepulauan Solomon,(677)</item>
+        <item>Somalia,(252)</item>
+        <item>Afrika Selatan,(27)</item>
+        <item>Korea Selatan,(82)</item>
+        <item>Spanyol,(34)</item>
+        <item>Sri Lanka,(94)</item>
+        <item>St. Helena,(290)</item>
+        <item>St. Pierre &amp; Miquelon,(508)</item>
+        <item>Sudan,(249)</item>
+        <item>Suriname,(597)</item>
+        <item>Swaziland,(268)</item>
+        <item>Swedia,(46)</item>
+        <item>Swiss,(41)</item>
+        <item>Suriah,(963)</item>
+        <item>Taiwan,(886)</item>
+        <item>Tajikistan,(992)</item>
+        <item>Tanzania,(255)</item>
+        <item>Thailand,(66)</item>
+        <item>Togo,(228)</item>
+        <item>Tokelau,(690)</item>
+        <item>Tonga,(676)</item>
+        <item>Tunisia,(216)</item>
+        <item>Turki,(90)</item>
+        <item>Turkmenistan,(993)</item>
+        <item>Tuvalu,(688)</item>
+        <item>Uni Emirat Arab,(971)</item>
+        <item>Uganda,(256)</item>
+        <item>Britania Raya,(44)</item>
+        <item>Ukraina,(380)</item>
+        <item>Uruguay,(598)</item>
+        <item>Amerika Serikat,(1)</item>
+        <item>Uzbekistan,(998)</item>
+        <item>Vanuatu,(678)</item>
+        <item>Vatican City,(39)</item>
+        <item>Venezuela,(58)</item>
+        <item>Vietnam,(84)</item>
+        <item>Wallis &amp; Futuna,(681)</item>
+        <item>Yaman,(967)</item>
+        <item>Zambia,(260)</item>
+        <item>Zimbabwe,(263)</item>
+    </string-array>
+
+</resources>

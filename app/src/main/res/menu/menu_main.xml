@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nl.mwsoft.www.chatster.viewLayer.main.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_privacy_policy"
+        android:orderInCategory="101"
+        android:title="@string/privacy_policy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_terms_policies"
+        android:orderInCategory="102"
+        android:title="@string/terms_and_policies"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_gdpr"
+        android:orderInCategory="103"
+        android:title="@string/gdpr"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_creators"
+        android:orderInCategory="104"
+        android:title="@string/creators"
+        android:icon="@drawable/creators_512"
+        app:showAsAction="always" />
+</menu>

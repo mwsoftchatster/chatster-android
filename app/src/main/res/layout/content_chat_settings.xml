@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="nl.mwsoft.www.chatster.viewLayer.chatSettings.ChatSettingsActivity"
+    tools:showIn="@layout/activity_chat_settings">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/chatSettingsToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ivChatSettingsBack"
+                android:src="@drawable/left_arrow"
+                android:clickable="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvChatSettingsActivityName"
+                android:text="@string/chat_settings"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:layout_toEndOf="@+id/ivChatSettingsBack"/>
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/ivChatSettingsContactPic"
+        android:layout_margin="15dp"
+        android:src="@drawable/user_256"
+        android:layout_below="@+id/chatSettingsToolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvChatSettingsContactName"
+        android:layout_toEndOf="@+id/ivChatSettingsContactPic"
+        android:layout_below="@+id/chatSettingsToolbar"
+        android:layout_marginTop="15dp"
+        android:text="Contact Name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvChatSettingsContactStatus"
+        android:layout_toEndOf="@+id/ivChatSettingsContactPic"
+        android:layout_below="@id/tvChatSettingsContactName"
+        android:layout_marginTop="5dp"
+        android:text="Contact Status"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvChatSettingsContactPhoneNumber"
+        android:layout_toEndOf="@+id/ivChatSettingsContactPic"
+        android:layout_below="@id/tvChatSettingsContactStatus"
+        android:layout_marginTop="5dp"
+        android:text="+31123456789"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/tvChatSettingsContactSeparator"
+        android:layout_below="@+id/ivChatSettingsContactPic"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorDelimiter"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/ivChatSettingsUnsendLogo"
+        android:layout_margin="15dp"
+        android:src="@drawable/unsend_message_256"
+        android:layout_below="@+id/tvChatSettingsContactSeparator"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvChatSettingsUnsend"
+        android:layout_toEndOf="@+id/ivChatSettingsUnsendLogo"
+        android:layout_below="@+id/tvChatSettingsContactSeparator"
+        android:layout_marginTop="15dp"
+        android:text="@string/un_send_messages"/>
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/swChatSettingsUnsend"
+        android:layout_toEndOf="@+id/ivChatSettingsUnsendLogo"
+        android:layout_below="@+id/tvChatSettingsUnsend"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/tvChatSettingsContactSeparator2"
+        android:layout_below="@+id/ivChatSettingsUnsendLogo"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorDelimiter"/>
+
+</RelativeLayout>

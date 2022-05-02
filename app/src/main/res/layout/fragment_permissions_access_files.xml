@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/ivPermissionsPagerAccessFiles"
+        android:src="@drawable/pic_w_512"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPermissionsPagerAccessFiles"
+        android:text="@string/permissions_access_files"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ivPermissionsPagerAccessFiles"
+        android:layout_marginTop="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPermissionsPagerAccessFilesDesc"
+        android:text="@string/permissions_access_files_desc"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvPermissionsPagerAccessFiles"
+        android:layout_marginTop="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPermissionsPagerAccessFilesRequest"
+        android:text="@string/permissions_grant_req"
+        android:textColor="@color/colorWhite"
+        android:textSize="14sp"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvPermissionsPagerAccessFilesDesc"
+        android:layout_marginTop="15dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/ivPermissionsPagerAccessFilesPointer"
+        android:src="@drawable/hint_grant_permission_512"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/tvPermissionsPagerAccessFilesRequest"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "846255351278",
+    "firebase_url": "https://chatster-58f6f.firebaseio.com",
+    "project_id": "chatster-58f6f",
+    "storage_bucket": "chatster-58f6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846255351278:android:0a2531d955dc6c75",
+        "android_client_info": {
+          "package_name": "nl.mwsoft.www.chatster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846255351278-vksum6jr0t3q0dnslj6qn1psepcvggno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nl.mwsoft.www.chatster",
+            "certificate_hash": "7d12fc7b14c4a87362b0210433874574bcf16b8b"
+          }
+        },
+        {
+          "client_id": "846255351278-sajbumqg8uqqh0su4012v22l8lrd2ghl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nl.mwsoft.www.chatster",
+            "certificate_hash": "f31595505c988ceb488a4b7652aad4879f33e82d"
+          }
+        },
+        {
+          "client_id": "846255351278-tjk888pdkhffaqbad9lavaj1ktv31n7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVYqePSVR6bJWuH4gi2hQSMJQGoRfkAeA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846255351278-tjk888pdkhffaqbad9lavaj1ktv31n7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
